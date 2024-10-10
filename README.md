@@ -31,24 +31,31 @@ La méthode Agile sera utilisé pendant cette phase.
 
 3 sprints sont prévus
 
-Sprint 1
+## Sprint 1
 
-###    EQUIPE:
+###    _EQUIPE:_
 ####        Product Owner : Frédéric
 ####        Scrum Master : Dylan
 ####        Dev : Fabrice
 
-Sprint 2
+###   _OBJETIF_
 
- ###   EQUIPE:
+#### - Analyse et Comprension du Projet
+#### - Analyse et Comprension du Logiciel "keyPass"
+#### - Préparation du l'osature des diffrente documents
+#### - Mise en place et en service de la VM et de Windows Serveur
+
+## Sprint 2
+
+ ###   _EQUIPE:_
  ####        Product Owner : Dylan
  ####        Scrum Master : Fabrice
  ####        Dev : Frédéric
     
 
-Sprint 3
+## Sprint 3
 
-###    EQUIPE:
+###   _EQUIPE:_
 ####         Product Owner : Fabrice
 ####         Scrum Master : Frederic
 ####         Dev: Dylan
