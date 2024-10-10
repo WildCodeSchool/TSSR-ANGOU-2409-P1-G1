@@ -6,6 +6,9 @@ Guide d'installation et de paramétrage
    - Virtualbox doit être installé sur une machine hôte et configuré pour que les VM soit sur un réseau local (Configuration/réseau/réseau interne)=>AJOUT COPIE D'ECRAN
    - Avoir téléchargé les ISO sur le site de MICROSOFT
    - Avoir telechargé le logiciel KEEPASS sur le site officiel (http://www.keepass.info)
+   - Avoir créer les utilisateurs sur le serveur
+   - Avoir créer le dossier partagé  pour la base Keepass
+   
 2) Installation et configuration de Windows Serveur version 2022
    - Mettre les étapes d'installation avec des copies d'écran
    - 
