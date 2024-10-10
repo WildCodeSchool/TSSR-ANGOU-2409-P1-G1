@@ -35,19 +35,30 @@ Sprint 1
 
     Product Owner : Frédéric
     Scrum Master : Dylan
+    Dev : Fabrice
 
 Sprint 2
 
      Product Owner : Dylan
      Scrum Master : Fabrice
+     Dev : Frédéric
     
 
 Sprint 3
 
      Product Owner : Fabrice
      Scrum Master : Frederic
+     Dev: Dylan
 
 ## Choix techniques
+
+Le serveur est sous OS Windows Server 2022 
+
+Un des clients est sous Windows 10 Pro
+
+Un autre client est sous Ubuntu 24.04 LTS
+
+La version de Keypass est 2.57.1
 
 ## Difficultés / Solutions
 
