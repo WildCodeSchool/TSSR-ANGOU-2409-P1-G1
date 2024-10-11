@@ -9,15 +9,16 @@ Projet :
 
 La gestion des mots de passes dans une entreprise est toujours un sujet délicat et très technique.
 D'une part la sécurité d'un système d'information est fortement lié a ces mots de passes, de l'autre les techniques pour compromettre ces "sésames" sont de plus en plus sophistiqués.
-l'utilisation de mots de passes fort est la missions de tous !
-Cependant, cela signifie de créer une phrase complexe souvent impossible à retenir de mémoire. 
-Mais alors, comment gérer efficacement le stockage de ces Mots de passes ?
+l'utilisation de mots de passes fort doit être le but de tous !
+Cependant, cela signifie de créer comme mot de passe une phrase complexe souvent impossible à retenir de mémoire. 
+Mais alors, comment gérer efficacement le stockage de ces mots de passes ?
 Essayons d'y répondre...
 
 ## Présentation du projet 
 
-Le but de ce projet est de gérer, administrer et maintenir une Base De Donnes Securisée De Mots De Passe en mode client/serveur avec le logiciel Keypass
+Le but de ce projet est de gérer, administrer et maintenir une Base De Donnes Securisée De Mots De Passe en mode clients/serveur.
 Cette base de données sera gérer avec le logiciel Keypass et sera accessible aux administrateurs et aux utilisateurs du SI de l'entreprise.
+La base de données pour les administrateurs serà isolé de la base de données pour les utilisateurs (Repertoire partagé différent / droits différents / clef d'accès différente)
 
 
 ##  Mise en contexte
@@ -31,19 +32,19 @@ La méthode Agile sera utilisé pendant cette phase.
 
 3 sprints sont prévus
 
-|                    | Sprint 1                                             | Sprint 2                                             | Sprint 3             |        
-|--------------------|------------------------------------------------------|------------------------------------------------------|----------------------|
-| **ÉQUIPE**                                                                                                                                              |        
-| Product Owner      | Frédéric                                             | Dylan                                                | Fabrice              |        
-| Scrum Master       | Dylan                                                | Fabrice                                              | Frédéric             |        
-| Dev                | Fabrice                                              | Frédéric                                             | Dylan                |                                
-| **Objectif**       | - Analyse et Compréhension du Projet                 | - Continuer la configuration de l'environnement      |                      |
-|                    | - Analyse et Compréhension du Logiciel "KeyPass"     | - Intégration des premiers tests unitaires           |                      |
-|                    | - Préparation de l'ossature des différents documents | - Documentation du processus d'intégration continue  |                      |        
-|                    | - Mise en place et en service de la VM et Windows    |                                                      |                      |                         
+|                    | Sprint 1                                             | Sprint 2                                             | Sprint 3                 |        
+|--------------------|------------------------------------------------------|------------------------------------------------------|--------------------------|
+| **ÉQUIPE**                                                                                                                                                  |        
+| Product Owner      | Frédéric                                             | Dylan                                                | Fabrice                  |        
+| Scrum Master       | Dylan                                                | Fabrice                                              | Frédéric                 |        
+| Dev                | Fabrice                                              | Frédéric                                             | Dylan                    |                                
+| **Objectifs*       | - Analyse et Compréhension du Projet                 | - Continuer la configuration de l'environnement      |  XXXXXXXXXXXXXXXXXXXXXX  | 
+|                    | - Analyse et Compréhension du Logiciel "KeyPass"     | - Intégration des premiers tests unitaires           |  XXXXXXXXXXXXXXXXXXXXXX  |
+|                    | - Préparation du squelette des différents documents  | - Documentation du processus d'intégration continue  |  XXXXXXXXXXXXXXXXXXXXXX  |        
+|                    | - Mise en place et en service de la VM et Windows    |                                                      |                          |                         
 
 
-## Choix techniques
+## Choix techniques pour la maquette
 
 Le serveur est sous OS Windows Server 2022 
 
@@ -55,6 +56,11 @@ La version de Keypass est 2.57.1
 
 ## Difficultés / Solutions
 
+Une des difficulté est la gestion des droits d'accès utilisateurs au repertoire contenant la base de données sur le serveur.
+Une solution serait d'utiliser un annuaire en utilisant le rôle/service Active Directory sur le serveur.
+
 ## Suggestions d'améliorations
+
+
 
 ## Bilan/synthèse
