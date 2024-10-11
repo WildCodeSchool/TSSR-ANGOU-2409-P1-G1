@@ -8,18 +8,25 @@ Guide d'installation et de paramétrage
    - Avoir telechargé le logiciel KEEPASS sur le site officiel (http://www.keepass.info)
    - Avoir créer les utilisateurs sur le serveur
    - Avoir créer le dossier partagé  pour la base Keepass
-   
-2) Installation et configuration de Windows Serveur version 2022
+   - Windows Serveur version 2022 installé sur un serveur
+   - Windows 10 Pro installé sur un poste client
+   - Ubuntu  24.04 LTS installé sur un poste client
    - Mettre les étapes d'installation avec des copies d'écran
-   - 
-3) Installation et configuration d'un client sous Windows 10 Pro
-   - Mettre les étapes d'installation avec des copies d'écran
-4) Configuration du reseau local avec adresses IP fixe
+
+2) Configuration des utilisateurs
+   - Copies d'écran des manipulations a faire pour créer les utilisateurs
+
+4) Configuration des adresses IP pour un réseau local
+   - Copies d'écran des manipulations a faire (dans Virtual box sur client et serveur)
+     
+6) Configuration du reseau local avec adresses IP fixe
    - copies d'écran des manipulations a faire pour rentrer les adresses IP 
    - Tests de fonctionnalités du réseau avec la commande Ping
-5) Installation et configuration d'un client sous Ubuntu
+   - Création des répertoires partagés
+
+7) Installation et configuration de KEYPASS
    - Mettre les étapes d'installation avec des copies d'écran
-6) Installation et configuration de KEYPASS
-   - Mettre les étapes d'installation avec des copies d'écran
-   - Comment configurer le changement de langue de Anglais à Français
-7) FAQ
+  
+8) IMPORTANT : Faire une sauvegarde régulière de la base de données avec la méthode 3/2/1 (Privilégier le stockage de la base sur un disque RAID)
+   
+8) FAQ
