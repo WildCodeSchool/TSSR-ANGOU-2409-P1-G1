@@ -31,34 +31,17 @@ La méthode Agile sera utilisé pendant cette phase.
 
 3 sprints sont prévus
 
-## Sprint 1
+|                    | Sprint 1                                             | Sprint 2                                             | Sprint 3             |        
+|--------------------|------------------------------------------------------|------------------------------------------------------|----------------------|
+| **ÉQUIPE**                                                                                                                                              |        
+| Product Owner      | Frédéric                                             | Dylan                                                | Fabrice              |        
+| Scrum Master       | Dylan                                                | Fabrice                                              | Frédéric             |        
+| Dev                | Fabrice                                              | Frédéric                                             | Dylan                |                                
+| **Objectif**       | - Analyse et Compréhension du Projet                 | - Continuer la configuration de l'environnement      |                      |
+|                    | - Analyse et Compréhension du Logiciel "KeyPass"     | - Intégration des premiers tests unitaires           |                      |
+|                    | - Préparation de l'ossature des différents documents | - Documentation du processus d'intégration continue  |                      |        
+|                    | - Mise en place et en service de la VM et Windows    |                                                      |                      |                         
 
-###    _EQUIPE:_
-####        Product Owner : Frédéric
-####        Scrum Master : Dylan
-####        Dev : Fabrice
-
-###   _OBJETIF_
-
-#### - Analyse et Comprension du Projet
-#### - Analyse et Comprension du Logiciel "keyPass"
-#### - Préparation du l'osature des diffrente documents
-#### - Mise en place et en service de la VM et de Windows Serveur
-
-## Sprint 2
-
- ###   _EQUIPE:_
- ####        Product Owner : Dylan
- ####        Scrum Master : Fabrice
- ####        Dev : Frédéric
-    
-
-## Sprint 3
-
-###   _EQUIPE:_
-####         Product Owner : Fabrice
-####         Scrum Master : Frederic
-####         Dev: Dylan
 
 ## Choix techniques
 
