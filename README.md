@@ -38,9 +38,9 @@ La méthode Agile sera utilisé pendant cette phase.
 | Product Owner      | Frédéric                                             | Dylan                                                | Fabrice                  |        
 | Scrum Master       | Dylan                                                | Fabrice                                              | Frédéric                 |        
 | Dev                | Fabrice                                              | Frédéric                                             | Dylan                    |                                
-| **Objectifs*       | - Analyse et Compréhension du Projet                 | - Continuer la configuration de l'environnement      |  XXXXXXXXXXXXXXXXXXXXXX  | 
-|                    | - Analyse et Compréhension du Logiciel "KeyPass"     | - Intégration des premiers tests unitaires           |  XXXXXXXXXXXXXXXXXXXXXX  |
-|                    | - Préparation du squelette des différents documents  | - Documentation du processus d'intégration continue  |  XXXXXXXXXXXXXXXXXXXXXX  |        
+| *Objectifs*       | - Analyse et Compréhension du Projet                 | - Continuer la configuration de l'environnement avec la création d'un nouvelle utilisateur client pour test un base de donnée Utilisateur      |  XXXXXXXXXXXXXXXXXXXXXX  | 
+|                    | - Analyse et Compréhension du Logiciel "KeyPass"     | - Batterie de test "list test"           |  XXXXXXXXXXXXXXXXXXXXXX  |
+|                    | - Préparation du squelette des différents documents  | - Finir la documentation "install.md et le " user_guide "  |  XXXXXXXXXXXXXXXXXXXXXX  |        
 |                    | - Mise en place et en service de la VM et Windows    |                                                      |                          |                         
 
 
