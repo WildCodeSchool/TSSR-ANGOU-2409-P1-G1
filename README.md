@@ -31,36 +31,36 @@ La méthode Agile sera utilisé pendant cette phase.
 ## Rôles de chaque membre durant le projet en mode Agile
 
 3 sprints sont prévus
-
-|                    | Sprint 1                                             | Sprint 2                                             | Sprint 3                 |        
-|--------------------|------------------------------------------------------|------------------------------------------------------|--------------------------|
-| **ÉQUIPE**                                                                                                                                                  |        
-| Product Owner      | Frédéric                                             | Dylan                                                | Fabrice                  |        
-| Scrum Master       | Dylan                                                | Fabrice                                              | Frédéric                 |        
-| Dev                | Fabrice                                              | Frédéric                                             | Dylan                    |                                
-| *Objectifs*       | - Analyse et Compréhension du Projet                 | - Continuer la configuration de l'environnement avec la création d'un nouvelle utilisateur client pour test un base de donnée Utilisateur      |  XXXXXXXXXXXXXXXXXXXXXX  | 
-|                    | - Analyse et Compréhension du Logiciel "KeyPass"     | - Batterie de test "list test"           |  XXXXXXXXXXXXXXXXXXXXXX  |
-|                    | - Préparation du squelette des différents documents  | - Finir la documentation "install.md et le " user_guide "  |  XXXXXXXXXXXXXXXXXXXXXX  |        
-|                    | - Mise en place et en service de la VM et Windows    |                                                      |                          |                         
-
+| _**Sprint**_           | **Sprint 1 : Analyse et initialisation**              | **Sprint 2 : Développement et configuration**          | **Sprint 3 : Backend et finalisation**                  |
+|----------------------|-------------------------------------------------------|-------------------------------------------------------|---------------------------------------------------------|
+| _**Rôles**_            |                                                       |                                                       |                                                         |
+| Product Owner        | Frédéric                                               | Dylan                                                 | Fabrice                                                  |
+| Scrum Master         | Dylan                                                  | Fabrice                                               | Frédéric                                                 |
+| Développeur          | Fabrice                                                | Frédéric                                              | Dylan                   
+| _**Objectifs**_        |                                                       |                                                       |                                                  |
+|                      | - Analyse et compréhension du projet | - Continuer la configuration de l'environnement        |                      |
+|                       | - Analyse du logiciel "KeyPass"      | - Création d'un nouvel utilisateur client pour tester la base de données | |
+|                       | - Préparation du squelette des documents | - Finaliser la documentation "install.md" et "user_guide" |        |
+|                       | - Mise en place de la VM et de Windows | - Batterie de tests "list test"                        |                      |
+|                      |                                                       |                                                   |
 
 ## Choix techniques pour la maquette
 
-Le serveur est sous OS Windows Server 2022 
-
-Un des clients est sous Windows 10 Pro
-
-Un autre client est sous Ubuntu 24.04 LTS
-
-La version de Keypass est 2.57.1
+#### - Le serveur est sous **Windows Server 2022**.
+#### - Un des clients est sous **Windows 10 Pro**.
+#### - Un autre client est sous **Ubuntu 24.04 LTS**.
+#### - La version de **Keypass** utilisée est **2.57.1**.
 
 ## Difficultés / Solutions
 
-Une des difficulté est la gestion des droits d'accès utilisateurs au repertoire contenant la base de données sur le serveur.
-Une solution serait d'utiliser un annuaire en utilisant le rôle/service Active Directory sur le serveur.
+#### - **Difficulté :** Gestion des droits d'accès utilisateurs au répertoire contenant la base de données sur le serveur.
+#### - **Solution :** Utiliser un annuaire via le rôle/service **Active Directory** sur le serveur pour mieux gérer les droits d'accès.
 
 ## Suggestions d'améliorations
 
+#### - Intégrer **Active Directory** pour une meilleure gestion des droits d'accès.
+#### - Créer un **serveur de partage de fichiers** pour faciliter l'échange des bases de données KeyPass entre les utilisateurs.
 
+## Bilan / Synthèse
 
-## Bilan/synthèse
+#### - Aucun problème majeur n'a été rencontré durant cet exercice, malgré quelques difficultés liées à la gestion des droits de partage.
