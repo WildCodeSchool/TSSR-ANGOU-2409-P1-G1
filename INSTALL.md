@@ -68,14 +68,14 @@ Félicitations, KeePass est prêt à être utilisé !
 1. **Tester la connexion du serveur au client** :
    - Ouvrez une fenêtre de commande (`cmd`) sur le serveur et exécutez la commande suivante :
      ```
-     ping 192.168.1.20
+     ping 172.16.10.30
      ```
    - Si la configuration est correcte, vous verrez des réponses indiquant que les paquets sont transmis avec succès.
 
 2. **Tester la connexion du client au serveur** :
    - Ouvrez une fenêtre de commande sur le client et tapez :
      ```
-     ping 192.168.1.10
+     ping 172.16.10.10
      ```
 
 ---
