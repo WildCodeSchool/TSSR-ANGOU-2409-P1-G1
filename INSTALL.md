@@ -13,14 +13,22 @@ Rendez-vous sur le site [KeePass](https://keepass.info) pour télécharger la ve
 1. Exécutez le programme d'installation.
 2. Choisissez la langue **française** pour l'installation.
 3. Acceptez les **Conditions Générales d'Utilisation (CGU)**.
+   ![ce1](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143004.png?raw=true)
 4. Sélectionnez le **chemin d'accès** où KeePass sera installé.
+   ![ce2](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143036.png?raw=true)
 5. Laissez les options par défaut pour les composants à installer, puis cliquez sur **Suivant**.
+   ![ce3](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143059.png?raw=true) 
 6. À l'étape des **tâches supplémentaires**, cochez simplement l'option pour **créer un raccourci sur le bureau**.
-7. Si tout vous semble correct, lancez l'installation.
-
+   ![ce4](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143112.png?raw=true) 
+8. Si tout vous semble correct, lancez l'installation.
+   ![ce5](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143131.png?raw=true)
+   ![ce6](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143156.png?raw=true)
+   ![ce7](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143220.png?raw=true)
 #### Étape 3 : Finalisation
 
-Après l'installation, une fenêtre vous demandera d'**activer la vérification automatique des mises à jour**. Sélectionnez **Enable** pour activer cette option.
+Après l'installation, une fenêtre vous demandera d'**activer la vérification automatique des mises à jour**. Sélectionnez **Enable** pour activer 
+cette option.
+![ce8](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143237.png?raw=true)
 
 Félicitations, KeePass est prêt à être utilisé !
 
