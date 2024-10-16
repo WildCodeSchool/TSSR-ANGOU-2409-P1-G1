@@ -24,8 +24,28 @@ Guide d'installation et de paramétrage
    - Tests de fonctionnalités du réseau avec la commande Ping
    - Création des répertoires partagés
 
-7) Installation et configuration de KEYPASS
-   - Mettre les étapes d'installation avec des copies d'écran
+### 7) Installation et configuration de KeePass
+
+#### Étape 1 : Télécharger KeePass
+
+Rendez-vous sur le site [keePasse](https://keepass.info) pour télécharger la version **2.57.1** de KeePass (dans notre cas).
+
+#### Étape 2 : Lancer l'installation
+
+1. Exécutez le programme d'installation.
+2. Choisissez la langue **française** pour l'installation.
+3. Acceptez les **Conditions Générales d'Utilisation (CGU)**.
+4. Sélectionnez le **chemin d'accès** où KeePass sera installé.
+5. Laissez les options par défaut pour les composants à installer, puis cliquez sur **Suivant**.
+6. À l'étape des **tâches supplémentaires**, cochez simplement l'option pour **créer un raccourci sur le bureau**.
+7. Si tout vous semble correct, lancez l'installation.
+
+#### Étape 3 : Finalisation
+
+Après l'installation, une fenêtre vous demandera d'**activer la vérification automatique des mises à jour**. Sélectionnez **Enable** pour activer cette option.
+
+Félicitations, KeePass est prêt à être utilisé !
+
   
 8) IMPORTANT : Faire une sauvegarde régulière de la base de données avec la méthode 3/2/1 (Privilégier le stockage de la base sur un disque RAID)
    
