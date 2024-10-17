@@ -2,6 +2,14 @@
 
 ## Guide d'installation et de paramétrage
 
+### Prérequis pour les machines
+
+| Machine          | Système d'exploitation      | Processeur              | Mémoire RAM        | Espace disque          | Connexion réseau               |
+|------------------|-----------------------------|-------------------------|--------------------|------------------------|---------------------------------|
+| **Client**       | Windows 10 Pro              | Intel i5 / AMD équivalent| 4 Go minimum       | 20 Go d'espace libre   | Accès réseau filaire ou Wi-Fi  |
+| **Serveur**       | Windows Server              | Intel Xeon / AMD équivalent | 8 Go minimum    | 40 Go d'espace libre   | Connexion réseau filaire        |
+| **KeePass**      | Windows 10 Pro ou Server    | Processeur standard      | 4 Go minimum       | 100 Mo pour KeePass    | Accès à Internet pour les mises à jour |
+
 ### 1) Installation et configuration de KeePass
 
 #### Étape 1 : Télécharger KeePass
