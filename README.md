@@ -1,6 +1,5 @@
 ![KEYPASS](https://img.linuxfr.org/img/68747470733a2f2f6b6565706173732e696e666f2f696d616765732f69636f6e732f6b6565706173735f333232783133322e706e67/keepass_322x132.png)
 
-Projet : 
 # _**Gestion Base De Données Securisée De Mots De Passes**_
 
 # Documentation Générale
