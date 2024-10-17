@@ -7,18 +7,13 @@ Projet :
 
 ## Introduction
 
-La gestion des mots de passes dans une entreprise est toujours un sujet délicat et très technique.
-D'une part la sécurité d'un système d'information est fortement lié a ces mots de passes, de l'autre les techniques pour compromettre ces "sésames" sont de plus en plus sophistiqués.
-l'utilisation de mots de passes fort doit être le but de tous !
-Cependant, cela signifie de créer comme mot de passe une phrase complexe souvent impossible à retenir de mémoire. 
-Mais alors, comment gérer efficacement le stockage de ces mots de passes ?
-Essayons d'y répondre...
+La gestion des mots de passe dans une entreprise est un enjeu crucial et souvent complexe. La sécurité d'un système d'information dépend en grande partie de la solidité de ces mots de passe. Cependant, les méthodes pour les pirater deviennent de plus en plus avancées. Il est essentiel d'encourager l'utilisation de mots de passe forts, mais cela se traduit souvent par la création de chaînes de caractères complexes, difficiles à retenir. Alors, comment peut-on assurer la sécurité tout en simplifiant la gestion de ces mots de passe ? Cherchons à répondre à cette question essentielle...
 
 ## Présentation du projet 
 
-Le but de ce projet est de gérer, administrer et maintenir une Base De Donnes Securisée De Mots De Passe en mode clients/serveur.
-Cette base de données sera gérer avec le logiciel Keypass et sera accessible aux administrateurs et aux utilisateurs du SI de l'entreprise.
-La base de données pour les administrateurs serà isolé de la base de données pour les utilisateurs (Repertoire partagé différent / droits différents / clef d'accès différente)
+L'objectif de ce projet est de gérer, administrer et maintenir une base de données sécurisée de mots de passe en mode client/serveur. Cette base sera gérée à l'aide du logiciel KeePass et sera accessible à la fois aux administrateurs et aux utilisateurs du système d'information de l'entreprise.
+
+La base de données dédiée aux administrateurs sera isolée de celle destinée aux utilisateurs, avec des répertoires partagés distincts, des droits d'accès différents et des clés d'accès spécifiques pour chaque groupe.
 
 
 ##  Mise en contexte
