@@ -45,13 +45,18 @@ Félicitations, KeePass est prêt à être utilisé !
 ### 2) Configuration des adresses IP pour un réseau local (Windows 10 Pro et Windows Server)
 
 #### Configuration des adresses IP statiques sur le serveur Windows Server :
-
+![re1](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113300.png?raw=true)
 1. **Ouvrir les paramètres réseau** :
+  ![re2](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113408.png?raw=true) 
    - Accédez à **Panneau de configuration** > **Réseau et Internet** > **Centre Réseau et partage** > **Modifier les paramètres de la carte**.
+     ![re3](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113418.png?raw=true)
    - Faites un clic droit sur la carte réseau > **Propriétés**.
+     ![re4](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113615.png?raw=true)
    - Sélectionnez **Protocole Internet version 4 (TCP/IPv4)** et cliquez sur **Propriétés**.
+     ![re5](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113638.png?raw=true)
    
 2. **Entrer les paramètres d'adresse IP** :
+   ![re6](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113557.png?raw=true)
    - Entrez une adresse IP statique, par exemple :
      - **Adresse IP** : `172.16.10.10`
      - **Masque de sous-réseau** : `255.255.255.0`
@@ -63,7 +68,6 @@ Félicitations, KeePass est prêt à être utilisé !
 
 1. **Ouvrir les paramètres réseau** :
    - Accédez aux paramètres réseau comme pour Windows Server.
-
 2. **Entrer les paramètres d'adresse IP** :
    - Entrez une adresse IP statique différente, par exemple :
      - **Adresse IP** : `172.16.10.30`
