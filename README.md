@@ -1,6 +1,6 @@
 ![KEYPASS](https://img.linuxfr.org/img/68747470733a2f2f6b6565706173732e696e666f2f696d616765732f69636f6e732f6b6565706173735f333232783133322e706e67/keepass_322x132.png)
 
-# _**Gestion Base De Données Securisée De Mots De Passes**_
+# _**Gestion Base De Données Securisée De Mots De Passe**_
 
 # Documentation Générale
 
@@ -42,10 +42,10 @@ La méthode Agile sera utilisé pendant cette phase de developement.
 
 ## Choix techniques pour la maquette
 
-#### - Le serveur est sous **Windows Server 2022**.
-#### - Un des clients est sous **Windows 10 Pro**.
-#### - Un autre client est sous **Ubuntu 24.04 LTS**.
-#### - La version de **Keypass** utilisée est **2.57.1**.
+#### - Le serveur est sous **Windows Server 2022**. (VM sous Virtual Box)
+#### - Un des clients est sous **Windows 10 Pro**. (VM sous Virtual Box)
+#### - Un autre client est sous **Ubuntu 24.04 LTS**. (VM sous Virtual Box)
+#### - La version de **Keypass** utilisée est **2.57.1**. (Installation sur chaque postes)
 
 ## Difficultés / Solutions - CHAPITRE A RETRAVAILLER
 
@@ -54,15 +54,24 @@ La méthode Agile sera utilisé pendant cette phase de developement.
 
 ## Suggestions d'améliorations - CHAPITRE A RETRAVAILLER
 
-#### - Déployer **Active Directory** pour une meilleure gestion des droits d'accès.
+#### - Déployer un controleur de domaine avec un annuaire **Active Directory** pour une meilleure gestion des droits d'accès.
+#### - Créer des GPO sur le serveur pour automatiser la création des raccourcis du repertoire réseau partagé et icone de l'application Keepass sur le bureau d'un utilisateur lors de sa première connexion sur une machine lié au domaine"
 #### - Créer un **serveur de partage de fichiers** pour faciliter l'échange des bases de données KeyPass entre les utilisateurs.
 
 ## Bilan / Synthèse - CHAPITRE A RETRAVAILLER
 
-#### - Aucun problème majeur n'a été rencontré durant cet exercice, malgré quelques difficultés liées à la gestion des droits de partage.
+#### - Le plus gros problème rencontré durant ce projet à été la gestion des droits d'accès/modification de la base pour le groupe administrateur. Il nous à été impossible d'interdire la supression du fichier .KDBX sans supprimer le droit de modification (afin de pouvoir ajouter ou supprimer des entrée dans la base).
+La supression accidentelle de la base par un administrateur pourra être réparé grace à la journalisation de la sauvegarde du repertoire réseau partagé.
+3 sauvegardes par jours semble palier à ce problème.
 
 
 ## Liens utiles - CHAPITRE A RETRAVAILLER
 
-
+https://keepass.info/
 https://fr.wikipedia.org/wiki/KeePass
+https://cyber.gouv.fr/bonnes-pratiques-protegez-vous
+https://www.it-connect.fr/comment-gerer-ses-mots-de-passe-avec-keepass-ou-keepassxc/
+https://linuxfr.org/news/keepass-ou-apprendre-a-gerer-correctement-ses-mots-de-passe
+https://siocours.lycees.nouvelle-aquitaine.pro/doku.php/systeme/authentification/keepass
+https://www.motdepasse.xyz/
+
