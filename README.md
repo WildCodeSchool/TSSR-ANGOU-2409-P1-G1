@@ -60,3 +60,9 @@ La méthode Agile sera utilisé pendant cette phase de developement.
 ## Bilan / Synthèse - CHAPITRE A RETRAVAILLER
 
 #### - Aucun problème majeur n'a été rencontré durant cet exercice, malgré quelques difficultés liées à la gestion des droits de partage.
+
+
+## Liens utiles - CHAPITRE A RETRAVAILLER
+
+
+https://fr.wikipedia.org/wiki/KeePass
