@@ -14,13 +14,15 @@ L'objectif de ce projet est de gérer, administrer et maintenir une base de donn
 
 La base de données dédiée aux administrateurs sera isolée de celle destinée aux utilisateurs, avec des répertoires partagés distincts, des droits d'accès différents et des clés d'accès spécifiques pour chaque groupe.
 
+Concernant la sécurité de cette base, il faut savoir que depuis 2013 Keepass 2.x à été ajouté à la liste du socle interministériel de logiciels libres préconisés par l’État Français et la version 2.10 est certifiée par l'Agence nationale de la sécurité des systèmes d'information.
+
 
 ##  Mise en contexte
 
 KeePass est un outil, sous licence GPL v2 ou ultérieure, qui permet non seulement la gestion raisonnée et organisée des mots de passe, mais offre également de très pratiques raccourcis et autres facilités qui soulagent le quotidien.
-cet outil sera installé sur un serveur et accessible depuis n'importe quel poste et n'importe quel client connecté au réseau de l'entreprise.
-Une maquette sera réalisé avec un serveur et un poste client dans un environnement Windows sur un réseau local (IP fixes)
-La méthode Agile sera utilisé pendant cette phase.
+La base de donnée de cet outil sera installé sur un serveur et accessible depuis n'importe quel poste et n'importe quel client connecté au réseau de l'entreprise.
+Pour le projet, une maquette sera réalisé avec un serveur et un poste client dans un environnement Windows sur un réseau local avec des machines configuré avec des adresses IP fixes.
+La méthode Agile sera utilisé pendant cette phase de developement.
 
 ## Rôles de chaque membre durant le projet en mode Agile
 
@@ -45,16 +47,16 @@ La méthode Agile sera utilisé pendant cette phase.
 #### - Un autre client est sous **Ubuntu 24.04 LTS**.
 #### - La version de **Keypass** utilisée est **2.57.1**.
 
-## Difficultés / Solutions
+## Difficultés / Solutions - CHAPITRE A RETRAVAILLER
 
 #### - **Difficulté :** Gestion des droits d'accès utilisateurs au répertoire contenant la base de données sur le serveur.
 #### - **Solution :** Utiliser un annuaire via le rôle/service **Active Directory** sur le serveur pour mieux gérer les droits d'accès.
 
-## Suggestions d'améliorations
+## Suggestions d'améliorations - CHAPITRE A RETRAVAILLER
 
-#### - Intégrer **Active Directory** pour une meilleure gestion des droits d'accès.
+#### - Déployer **Active Directory** pour une meilleure gestion des droits d'accès.
 #### - Créer un **serveur de partage de fichiers** pour faciliter l'échange des bases de données KeyPass entre les utilisateurs.
 
-## Bilan / Synthèse
+## Bilan / Synthèse - CHAPITRE A RETRAVAILLER
 
 #### - Aucun problème majeur n'a été rencontré durant cet exercice, malgré quelques difficultés liées à la gestion des droits de partage.
