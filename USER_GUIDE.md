@@ -13,17 +13,19 @@
 ### 2) L'interface de Keepass
 
  
-   A gauche de l'interface, il est possible de ranger ses mots de passe dans différents chapitres, par exemple "Internet" pour les comptes et mots de passe liés à un site web.
-   A droite, les différentes entrées, sur différentes lignes, contenant un login et un mot de passe, éventuellement des remarques et d'autres paramètres comme le lien vers le site web par exemple.
+   A gauche de l'interface, il est possible de ranger ses mots de passe dans différents sous dossier de la base de données, par exemple "Internet" pour les comptes et mots de passe liés à un site web.
+   A droite, les différentes entrées, sur différentes lignes, contenant un nom de préférence explicite, un login et un mot de passe, éventuellement des remarques et d'autres paramètres comme le lien vers le site web par exemple.
    
    ![Image keepass from Google Drive](https://drive.google.com/thumbnail?id=1QCBhXlu0WrmuYdOCHxMCL-Td4qOKwZID&sz=w1000 "l'interface de Keepass")
    
    
 ### 3) Utilisation de Keepass
+
+Point important, par défaut KeePass ouvrira la dernière base de données utilisée mais pour ouvrir une autre base de données existante, cliquez sur _"Fichier"_, _"Ouvrir"_, et sélectionnez le fichier .kdbx qui correspond à la base de données dont vous souhaitez avoir accès.
    
 #### a) Ouvrir une base de données existante, soit en local soit sur le repertoire partagé dédié à Keepass sur le serveur SRVWIN01 de l'entreprise \SRVWIN01\Base Keepass Utilisateurs\
    
-   Pour accéder facilement à ce repertoire, un raccourcis est disponible sur le bureau de votre ordinateur
+   Pour accéder facilement au repertoire partagé sur le serveur, un raccourcis est disponible sur le bureau de votre ordinateur
    
    ![Image](https://drive.google.com/thumbnail?id=15Okbp-tWc3vXtqRvKg6pk8MEJZxY9vTI&sz=w1000 "Raccourci vers base keepass utilisateurs sur le serveur SRVWIN01")
    
