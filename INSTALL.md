@@ -50,9 +50,9 @@ Pour créer un utilisateur nommé ```Wilder``` et l'ajouter au groupe des admini
 3. **Créer un compte local** :
    - Dans la fenêtre suivante, entrez le nom d'utilisateur "Wilder", un mot de passe (facultatif), et suivez les instructions pour terminer la création.
 
-4. **Ajouter "Wilder" au groupe des administrateurs** :
+4. **Ajouter ```Wilder``` au groupe des administrateurs** :
    - Une fois l'utilisateur "Wilder" créé, ouvrez le **Menu Démarrer** et recherchez **Invite de commandes**. Faites un clic droit et sélectionnez **Exécuter en tant qu'administrateur**.
-   - Dans l'invite de commandes, entrez la commande suivante pour ajouter "Wilder" au groupe des administrateurs locaux :
+   - Dans l'invite de commandes, entrez la commande suivante pour ajouter ```Wilder``` au groupe des administrateurs locaux :
      ```bash
      net localgroup administrateurs Wilder /add
      ```
