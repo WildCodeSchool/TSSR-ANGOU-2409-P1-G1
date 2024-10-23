@@ -10,39 +10,25 @@
 | **Serveur**       | Windows Server              | Intel Xeon / AMD équivalent | 8 Go minimum    | 40 Go d'espace libre   | Connexion réseau filaire        |
 | **KeePass**      | Windows 10 Pro ou Server    | Processeur standard      | 4 Go minimum       | 100 Mo pour KeePass    | Accès à Internet pour les mises à jour |
 
-### 1) Installation et configuration de KeePass
+### 2) Configuration des utilisateurs et des machines
 
-#### Étape 1 : Télécharger KeePass
+#### 2.1 Renommer les machines client/serveur
 
-Rendez-vous sur le site [KeePass](https://keepass.info) pour télécharger la version **2.57.1** de KeePass (dans notre cas).
+##### 2.1.1 Client
+Nous partons du principe que le système d'exploitation est déjà installé, dans notre cas Windows 10 PRO. 
 
-#### Étape 2 : Lancer l'installation
+Pour renommer votre client :
+1. Rendez-vous dans **Paramètres** > **Système** > **À propos de**.
+2. Cliquez sur "Renommer ce PC".
+3. Dans notre cas, nous allons renommer la machine en `CLIWIN01`.
 
-1. Exécutez le programme d'installation.
-2. Choisissez la langue **française** pour l'installation.
-3. Acceptez les **Conditions Générales d'Utilisation (CGU)**.
-   ![ce1](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143004.png?raw=true)
-4. Sélectionnez le **chemin d'accès** où KeePass sera installé.
-   ![ce2](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143036.png?raw=true)
-5. Laissez les options par défaut pour les composants à installer, puis cliquez sur **Suivant**.
-   ![ce3](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143059.png?raw=true) 
-6. À l'étape des **tâches supplémentaires**, cochez simplement l'option pour **créer un raccourci sur le bureau**.
-   ![ce4](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143112.png?raw=true) 
-8. Si tout vous semble correct, lancez l'installation.
-   ![ce5](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143131.png?raw=true)
-   ![ce6](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143156.png?raw=true)
-   ![ce7](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143220.png?raw=true)
-#### Étape 3 : Finalisation
+##### 2.1.2 Serveur
+Le processus est similaire pour le serveur. Dans notre cas, nous utilisons Windows Server 2022, que nous allons renommer en `SRVWIN01`.
 
-Après l'installation, une fenêtre vous demandera d'**activer la vérification automatique des mises à jour**. Sélectionnez **Enable** pour activer 
-cette option.
-![ce8](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143237.png?raw=true)
+![Capture d'écran de l'interface Windows](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-23%20144413.png?raw=true)
+![Capture d'écran de l'interface Windows](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-23%20145702.png?raw=true)
 
-Félicitations, KeePass est prêt à être utilisé !
-
----
-
-### 2) Configuration des adresses IP pour un réseau local (Windows 10 Pro et Windows Server)
+### 3) Configuration des adresses IP pour un réseau local (Windows 10 Pro et Windows Server)
 
 #### Configuration des adresses IP statiques sur le serveur Windows Server :
 ![re1](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113300.png?raw=true)
@@ -91,6 +77,39 @@ Félicitations, KeePass est prêt à être utilisé !
      ```
 
 ---
+
+### 1) Installation et configuration de KeePass
+
+#### Étape 1 : Télécharger KeePass
+
+Rendez-vous sur le site [KeePass](https://keepass.info) pour télécharger la version **2.57.1** de KeePass (dans notre cas).
+
+#### Étape 2 : Lancer l'installation
+
+1. Exécutez le programme d'installation.
+2. Choisissez la langue **française** pour l'installation.
+3. Acceptez les **Conditions Générales d'Utilisation (CGU)**.
+   ![ce1](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143004.png?raw=true)
+4. Sélectionnez le **chemin d'accès** où KeePass sera installé.
+   ![ce2](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143036.png?raw=true)
+5. Laissez les options par défaut pour les composants à installer, puis cliquez sur **Suivant**.
+   ![ce3](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143059.png?raw=true) 
+6. À l'étape des **tâches supplémentaires**, cochez simplement l'option pour **créer un raccourci sur le bureau**.
+   ![ce4](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143112.png?raw=true) 
+8. Si tout vous semble correct, lancez l'installation.
+   ![ce5](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143131.png?raw=true)
+   ![ce6](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143156.png?raw=true)
+   ![ce7](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143220.png?raw=true)
+#### Étape 3 : Finalisation
+
+Après l'installation, une fenêtre vous demandera d'**activer la vérification automatique des mises à jour**. Sélectionnez **Enable** pour activer 
+cette option.
+![ce8](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-16%20143237.png?raw=true)
+
+Félicitations, KeePass est prêt à être utilisé !
+
+---
+
 
 ### 3) Configuration des utilisateurs dans KeePass
 
