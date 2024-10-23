@@ -48,7 +48,7 @@ Pour créer un utilisateur nommé ```Wilder``` et l'ajouter au groupe des admini
    - Cliquez ensuite sur **Ajouter un utilisateur sans compte Microsoft**.
 
 3. **Créer un compte local** :
-   - Dans la fenêtre suivante, entrez le nom d'utilisateur "Wilder", un mot de passe (facultatif), et suivez les instructions pour terminer la création.
+   - Dans la fenêtre suivante, entrez le nom d'utilisateur ```Wilder```, un mot de passe (facultatif), et suivez les instructions pour terminer la création.
 
 4. **Ajouter ```Wilder``` au groupe des administrateurs** :
    - Une fois l'utilisateur "Wilder" créé, ouvrez le **Menu Démarrer** et recherchez **Invite de commandes**. Faites un clic droit et sélectionnez **Exécuter en tant qu'administrateur**.
@@ -58,12 +58,12 @@ Pour créer un utilisateur nommé ```Wilder``` et l'ajouter au groupe des admini
      ```
 
 5. **Vérification** :
-   - Pour vérifier que "Wilder" fait bien partie du groupe des administrateurs, tapez la commande suivante :
+   - Pour vérifier que ```Wilder``` fait bien partie du groupe des administrateurs, tapez la commande suivante :
      ```bash
      net localgroup administrateurs
      ```
 
-   - Vous devriez voir "Wilder" dans la liste des administrateurs.
+   - Vous devriez voir ```Wilder``` dans la liste des administrateurs.
 
 ##### 1.2.2 Sur le serveur (Windows Server 2022)
 
