@@ -97,9 +97,9 @@ Le processus est similaire sur le serveur :
    ![re6](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113557.png?raw=true)
    - Entrez une adresse IP statique, par exemple :
      - **Adresse IP** : `172.16.10.10`
-     - **Masque de sous-réseau** : `255.255.255.0`
-     - **Passerelle par défaut** : `172.16.10.254`
-     - **DNS préféré** : `172.16.10.10`
+     - **Masque de sous-réseau** : ```255.255.255.0```
+     - **Passerelle par défaut** : ```172.16.10.254```
+     - **DNS préféré** : ```172.16.10.10```
    - Cliquez sur **OK** pour valider les paramètres.
 
 #### Configuration des adresses IP statiques sur le client Windows 10 Pro :
