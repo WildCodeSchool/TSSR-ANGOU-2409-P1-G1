@@ -36,7 +36,7 @@ Le processus est similaire pour le serveur. Dans notre cas, nous utilisons Windo
 
 ##### 1.2.1 Sur le client (Windows 10 PRO)
 
-Pour créer un utilisateur nommé "Wilder" et l'ajouter au groupe des administrateurs locaux, suivez les étapes suivantes :
+Pour créer un utilisateur nommé ```Wilder``` et l'ajouter au groupe des administrateurs locaux, suivez les étapes suivantes :
 
 1. **Accéder à la gestion des comptes** :
    - Ouvrez le **Panneau de configuration**.
