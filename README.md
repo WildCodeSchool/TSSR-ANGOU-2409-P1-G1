@@ -43,9 +43,11 @@ La méthode Agile sera utilisé pendant cette phase de developement.
 
 
 
-AJOUT IMAGE TABLEAU MIRO +EXPLICATIONS
+TABLEAU MIRO :
+Cette application web nous a aidé à gérer notre projet en mode Agile
 
-
+![KEYPASS](https://img.linuxfr.org/img/68747470733a2f2f6b6565706173732e696e666f2f696d616765732f69636f6e732f6b6565706173735f333232783133322e706e67/keepass_322x132.png)
+https://drive.google.com/file/d/12fye1CKaDPv57CcqsqnG99A6VOhPyen3/view?usp=sharing
 
 
 
