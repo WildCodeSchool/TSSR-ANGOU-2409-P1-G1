@@ -28,8 +28,11 @@ Pour renommer votre client :
 ##### 1.1.2 Serveur
 Le processus est similaire pour le serveur. Dans notre cas, nous utilisons Windows Server 2022, que nous allons renommer en `SRVWIN01`.
 
-![Capture d'écran de l'interface Windows](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-23%20144413.png?raw=true)
-![Capture d'écran de l'interface Windows](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-23%20145702.png?raw=true) 
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-23%20144413.png?raw=true" width="300" height="300">
+
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-23%20145702.png?raw=true" width="500" height="300">
+
+
   </details>
   <details>
 <summary>1.2 Création d'un utilisateur "Wilder" dans le groupe des administrateurs locaux</summary>
@@ -83,18 +86,31 @@ Le processus est similaire sur le serveur :
 </strong></summary>
   
 #### Configuration des adresses IP statiques sur le serveur Windows Server :
-![re1](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113300.png?raw=true)
+
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113300.png?raw=true" width="500" height="300">
+
 1. **Ouvrir les paramètres réseau** :
-  ![re2](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113408.png?raw=true) 
+
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113408.png?raw=true" width="500" height="300">
+
    - Accédez à **Panneau de configuration** > **Réseau et Internet** > **Centre Réseau et partage** > **Modifier les paramètres de la carte**.
-     ![re3](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113418.png?raw=true)
+
+
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113418.png?raw=true" width="500" height="300">
+
+     
    - Faites un clic droit sur la carte réseau > **Propriétés**.
-     ![re4](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113615.png?raw=true)
+
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113615.png?raw=true" width="350" height="400">
+    
    - Sélectionnez **Protocole Internet version 4 (TCP/IPv4)** et cliquez sur **Propriétés**.
-     ![re5](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113638.png?raw=true)
-   
+
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113638.png?raw=true" width="350" height="400">
+  
 2. **Entrer les paramètres d'adresse IP** :
-   ![re6](https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113557.png?raw=true)
+3.    
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113557.png?raw=true" width="350" height="400">
+
    - Entrez une adresse IP statique, par exemple :
      - **Adresse IP** : `172.16.10.10`
      - **Masque de sous-réseau** : ```255.255.255.0```
