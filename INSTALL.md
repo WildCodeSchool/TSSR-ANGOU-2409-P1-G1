@@ -7,7 +7,7 @@
 | Machine          | Système d'exploitation      | Processeur              | Mémoire RAM        | Espace disque          | Connexion réseau               |
 |------------------|-----------------------------|-------------------------|--------------------|------------------------|---------------------------------|
 | **Client**       | Windows 10 Pro              | Intel / AMD | 4 Go minimum       | 20 Go d'espace libre   | Accès réseau filaire ou Wi-Fi  |
-| **Serveur**       | Windows Server              | Intel/ AMD | 8 Go minimum    | 40 Go d'espace libre   | Connexion réseau filaire        |
+| **Serveur**       | Windows Server              | Intel / AMD | 8 Go minimum    | 40 Go d'espace libre   | Connexion réseau filaire        |
 | **KeePass**      | Windows 10 Pro ou Server    | Processeur standard      | 4 Go minimum       | 100 Mo pour KeePass    | Accès à Internet pour les mises à jour |
 <details>
 <summary><strong>1) Configuration des utilisateurs et des machines
@@ -203,21 +203,33 @@ Félicitations, KeePass est prêt à être utilisé !
 1. Téléchargez le fichier ZIP depuis le site [KeePass Translations](https://keepass.info/translations.html).  
 2. Depuis votre explorateur de fichiers, décompressez le fichier ZIP et copiez le fichier `French.lngx`.
 
-   <img src="" width="350" height="400">
+   <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-24%20101033.png?raw=true" width="500" height="300">
    
-   <img src="" width="350" height="400">
+   <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-24%20101058.png?raw=true" width="500" height="300">
 
 3. Maintenant, rendez-vous dans votre disque `C:/`, puis dans `Programmes > KeePass Password Safe 2 > Languages`.
+---
+   <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-24%20101138.png?raw=true" width="500" height="300">
 
-   <img src="" width="350" height="400">
-   
-   <img src="" width="350" height="400">
+---   
+   <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-24%20101201.png?raw=true" width="500" height="300">
+
+---
+  <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-24%20101212.png?raw=true" width="500" height="300">
+
+---
+  <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-24%20101225.png?raw=true" width="500" height="300">
+
+---
+  <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-24%20101245.png?raw=true" width="500" height="300">
+
 
 4. Ouvrez KeePass, puis allez dans `View > Change Language` et sélectionnez **Français** comme langue. KeePass vous demandera de redémarrer, cliquez sur **OK**.
 
-   <img src="" width="350" height="400">
-   
-   <img src="" width="350" height="400">
+   <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-24%20101313.png?raw=true" width="500" height="300">
+---
+   <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-24%20101320.png?raw=true" width="500" height="300">
+---   
 
 </details>
 
