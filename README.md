@@ -75,7 +75,8 @@ IMPORTANT : Les bases de données sont compatible entre Keepass et KeepassXC
 ## Suggestions d'améliorations
 
 #### - Déployer un controleur de domaine avec un annuaire **Active Directory** pour une meilleure gestion des droits d'accès.
-#### - Créer des GPO sur le serveur pour automatiser la création des raccourcis du repertoire réseau partagé et icone de l'application Keepass sur le bureau d'un utilisateur lors de sa première connexion sur une machine lié au domaine
+#### - Créer des GPO sur le serveur pour automatiser la création des raccourcis du repertoire réseau partagé et l"icone de l'application Keepass sur le bureau d'un utilisateur lors de sa première connexion sur une machine lié au domaine.
+#### - Créer des GPO sur le serveur pour automatiser l'installation de Keepass sur tous les postes du domaine
 
 
 ## Bilan
