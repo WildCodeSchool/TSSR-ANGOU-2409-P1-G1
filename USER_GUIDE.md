@@ -129,10 +129,10 @@ l’un(e) de vos comptes/applications/site web. Dans ce cas, il est __impératif
 
 IMAGE
 
-  ⚠️ ATTENTION, par défaut vous n'avez que 12s pour faire l'action Ctrl+C puis Ctrl+v, car ensuite pour une question de sécurité, le presse papier est effacé !!!
+  ⚠️ ATTENTION, par défaut vous n'avez que 12 secondes pour faire l'action Ctrl+C puis Ctrl+v, car ensuite pour une question de sécurité, le presse papier est effacé !!!
   Ce temps est paramètrable dans les options de Keepass : 
-  
-![Image](https://drive.google.com/thumbnail?id=1TENtj7jw6DATeKWIKZb4C-5X3LIYIAlK&sz=w1000 "Paramètre 12s")
+
+  ![Image](https://drive.google.com/thumbnail?id=1hM6GfhAu2chkoUGN6bQ0ccOiNVv_L553&sz=w1000 "Paramètre 12s")
 
    
 ### 7) Utilisation de Keepass pour renseigner un login et un mot de passe avec auto completion.
