@@ -108,7 +108,7 @@ Le processus est similaire sur le serveur :
 <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113638.png?raw=true" width="350" height="400">
   
 2. **Entrer les paramètres d'adresse IP** :
-3.    
+  
 <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-18%20113557.png?raw=true" width="350" height="400">
 
    - Entrez une adresse IP statique, par exemple :
@@ -193,6 +193,31 @@ Félicitations, KeePass est prêt à être utilisé !
    - Optionnel : Ajoutez des informations complémentaires telles qu'une URL ou des notes.
 
 3. **Enregistrer l'entrée** : Cliquez sur **OK** pour enregistrer le nouvel utilisateur.
+
+</details>
+
+<details>
+<summary><strong>6) Mettre KeePass en français
+</strong></summary>
+
+1. Téléchargez le fichier ZIP depuis le site [KeePass Translations](https://keepass.info/translations.html).  
+2. Depuis votre explorateur de fichiers, décompressez le fichier ZIP et copiez le fichier `French.lngx`.
+
+   <img src="" width="350" height="400">
+   
+   <img src="" width="350" height="400">
+
+3. Maintenant, rendez-vous dans votre disque `C:/`, puis dans `Programmes > KeePass Password Safe 2 > Languages`.
+
+   <img src="" width="350" height="400">
+   
+   <img src="" width="350" height="400">
+
+4. Ouvrez KeePass, puis allez dans `View > Change Language` et sélectionnez **Français** comme langue. KeePass vous demandera de redémarrer, cliquez sur **OK**.
+
+   <img src="" width="350" height="400">
+   
+   <img src="" width="350" height="400">
 
 </details>
 
