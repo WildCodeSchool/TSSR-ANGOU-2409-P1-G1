@@ -6,8 +6,8 @@
 
 | Machine          | Système d'exploitation      | Processeur              | Mémoire RAM        | Espace disque          | Connexion réseau               |
 |------------------|-----------------------------|-------------------------|--------------------|------------------------|---------------------------------|
-| **Client**       | Windows 10 Pro              | Intel i5 / AMD équivalent| 4 Go minimum       | 20 Go d'espace libre   | Accès réseau filaire ou Wi-Fi  |
-| **Serveur**       | Windows Server              | Intel Xeon / AMD équivalent | 8 Go minimum    | 40 Go d'espace libre   | Connexion réseau filaire        |
+| **Client**       | Windows 10 Pro              | Intel / AMD | 4 Go minimum       | 20 Go d'espace libre   | Accès réseau filaire ou Wi-Fi  |
+| **Serveur**       | Windows Server              | Intel/ AMD | 8 Go minimum    | 40 Go d'espace libre   | Connexion réseau filaire        |
 | **KeePass**      | Windows 10 Pro ou Server    | Processeur standard      | 4 Go minimum       | 100 Mo pour KeePass    | Accès à Internet pour les mises à jour |
 <details>
 <summary><strong>1) Configuration des utilisateurs et des machines
