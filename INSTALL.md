@@ -245,84 +245,34 @@ Félicitations, KeePass est prêt à être utilisé !
 
 1.2 Mettre en place une journalisation de la base de données 3 fois par jour
 
-  1. **Accéder à l'Observateur d'événements (Event Viewer)** :
-     - Ouvrez le **Menu Démarrer** et tapez "Observateur d'événements".
-     - Cliquez sur **Observateur d'événements** pour l'ouvrir.
+1. **Configurer les Clichés instantanés ou la journalisation de la sauvegarde de la base KeePass** :
+   - Commencez par activer la fonctionnalité des Clichés instantanés sur le disque qui contient la base de données KeePass.
+  
+  
+     <img srv="" width="500" height="300">
 
+---
+
+2. **Les Clichés instantanés sont activés sur le disque E: qui contient la base KeePass** :
+   - Assurez-vous que le disque contenant la base KeePass, dans cet exemple `E:`, a bien la fonctionnalité des Clichés instantanés activée.
 
      <img srv="" width="500" height="300">
 
 ---
 
-  2. **Configurer un journal personnalisé** :
-     - Dans l'Observateur d'événements, cliquez sur **Actions** dans le volet de droite, puis sélectionnez **Créer une vue personnalisée**.
-
-     <img srv="" width="500" height="300">
-
----
-
-  3. **Sélectionner les journaux à inclure** :
-     - Dans la fenêtre de création de vue personnalisée, sous l'onglet **Filtre**, choisissez les journaux à surveiller. Par exemple, sélectionnez **Journaux            Windows** et les événements système pertinents pour la base de données.
-     - Cliquez sur **OK**.
+3. **Paramètres et planification des clichés instantanés** :
+   - Configurez la planification des Clichés instantanés pour qu'ils se déclenchent 3 fois par jour à des heures spécifiques (par exemple, à 8h, 12h et 18h).
        
 
      <img srv="" width="500" height="300">
 
   ---
 
-  4. **Enregistrer la vue personnalisée** :
-     - Donnez un nom à la vue personnalisée, par exemple "Journal de la base de données".
-     - Cliquez sur **OK** pour l'enregistrer.
-       
+  4. **Restaurer une version précédente d'un fichier** :
+   - Pour restaurer une version précédente de la base de données KeePass, faites un clic droit sur le fichier concerné, puis sélectionnez **Restaurer les              versions précédentes**.
 
      <img srv="" width="500" height="300">
-
 ---
-
-  5. **Créer une tâche planifiée pour la journalisation** :
-     - Ouvrez le **Planificateur de tâches** (Task Scheduler) à partir du Menu Démarrer.
-     - Cliquez sur **Créer une tâche**.
-       
-
-     <img srv="" width="500" height="300">
-
----
-
-  6. **Configurer les déclencheurs** :
-     - Sous l'onglet **Déclencheurs**, cliquez sur **Nouveau**.
-     - Configurez un déclencheur pour que la tâche s'exécute trois fois par jour à des heures spécifiques.
-     - Cliquez sur **OK**.
-
-
-     <img srv="" width="500" height="300">
-
----
-
-  7. **Configurer les actions** :
-     - Sous l'onglet **Actions**, cliquez sur **Nouveau**.
-     - Choisissez **Démarrer un programme** et sélectionnez le script ou la commande à exécuter pour générer ou exporter le journal.
-     - Cliquez sur **OK**.
-
-
-     <img srv="" width="500" height="300">
-
----
-
-  8. **Enregistrer et activer la tâche** :
-     - Une fois toutes les configurations faites, cliquez sur **OK** pour enregistrer la tâche planifiée.
-     - Vérifiez que la tâche est active et prête à s'exécuter selon les horaires définis.
-
-
-     <img srv="" width="500" height="300">
-
----
-
-  9. **Vérifier la journalisation** :
-     - Après que la tâche s'est exécutée, vérifiez dans l'Observateur d'événements ou dans les fichiers générés que les journaux sont bien créés 3 fois par jour.
-
-
-     <img srv="" width="500" height="300">
-
 
 **Conseil** : Utilisez un **disque RAID** pour sécuriser davantage vos sauvegardes.
 </details>
