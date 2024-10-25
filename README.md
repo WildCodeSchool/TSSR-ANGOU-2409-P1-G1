@@ -89,10 +89,12 @@ La supression accidentelle de la base par un administrateur pourra être répar�
 ## Liens utiles
 
 https://keepass.info/
+https://keepass.cool/
 https://fr.wikipedia.org/wiki/KeePass
 https://cyber.gouv.fr/bonnes-pratiques-protegez-vous
 https://www.it-connect.fr/comment-gerer-ses-mots-de-passe-avec-keepass-ou-keepassxc/
 https://linuxfr.org/news/keepass-ou-apprendre-a-gerer-correctement-ses-mots-de-passe
 https://siocours.lycees.nouvelle-aquitaine.pro/doku.php/systeme/authentification/keepass
+https://keepass.cool/
 https://www.motdepasse.xyz/
 
