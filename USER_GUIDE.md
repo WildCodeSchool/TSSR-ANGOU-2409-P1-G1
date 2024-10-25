@@ -168,18 +168,19 @@ Si votre base de données n'est pas mise dans un repertoire réseau sur le serve
 
    - il est vraiment nécessaire de faire une copie du fichier .KBX qui est le fichier contenant toutes vos entrées donc tous vos mots de passe.
    - Il est conseillé d'utiliser la méthode de sauvegarde 3/2/1
-   - Le fichiers Base Utilisateurs.KBX, est la base de données des mot de passe communs aux salariés sur le réseau de l'entreprise. Il est sécurisé avec une protection en écriture/supression pour un utilisateur standard.
-     La base administrateur n'est pas accessible à un utilisateur standard (A METTRE DANS DOC ADMIN)
+   - Le fichier "Base de données Utilisateurs.KBX", est la base de données des mot de passe communs aux salariés sur le réseau de l'entreprise. Il est sécurisé avec une protection en écriture/supression pour un utilisateur standard.
+     La base administrateur n'est pas accessible à un utilisateur standard
+     
      La base utilisateur est accessible à tous les salariés. Contacter le service IT afin d'obtenir le mot de passe maître.
 
 
 ### 9) Utilisation avancée
 
-Les points abordés ci-dessus permettent d'utiliser Keepass pour une utilisation basique. Mais ce logiciel possède des fonctions avancées très interressantes comme par exemple :
+Les points abordés ci-dessus permettent d'utiliser Keepass pour une utilisation basique. Mais ce logiciel possède des options et des fonctions avancées très interressantes comme par exemple :
 
-   - Durcir la sécurité pour accéder à la base Keepass avec un fichier clef (double authentification 2FA)
-   - Création de groupes
-   - L'ajout de Plugins
+   - Durcir la sécurité pour accéder à la base Keepass avec un fichier clef (double authentification 2FA), a selectionner lors de la création du mot de passe maître.
+   - La création de groupes
+   - L'ajout de Plugins (ou greffon en Français)
    - De nombreux raccourcis clavier
    - Une utilisation de la base de données depuis plusieurs appareils (Avec sauvegarde de la base dans le cloud, mais attention ceci est parfois interdit par certaines entreprises ou organisations)
 
@@ -187,14 +188,36 @@ Les points abordés ci-dessus permettent d'utiliser Keepass pour une utilisation
    
 ### 10) FAQ
 
-  Ma base de données Keepass est corrompu, que faire ? Contacter votre service IT pour restaurer une sauvegarde de la base.
+  -  KeePass peut-il être utilisé en entreprise ?
 
-  Les menus de Keepass sont en Anglais, est ce possible de les avoir en Français ? Contacter votre service IT afin d'installer le pack de langue Français (Parfois à l'installation du logiciel, même si le Français est selectionné, Keepass démarre en Anglais)
+     Oui. Keepass est un logiciel libre et vous n'avez pas à payer de frais. Vous pouvez librement utiliser KeePass selon les termes de sa licence.
 
-  Ou dois je sauvegarder ma base de données ? Il est conseillé de sauvegarder votre fichier .KBX dans un repertoire réseau sur le serveur SRVWIN01, par exmple dans  *E:\Base Keepass Utilisateurs\Autres utilisateurs* avec une copie en local sur votre ordinateur en cas d'indisponibilité du repertoire réseau.
+  - Ma base de données Keepass est corrompu, que faire ? Contacter votre service IT pour restaurer une sauvegarde de la base.
+
+  - Les menus de Keepass sont en Anglais, est ce possible de les avoir en Français ? Contacter votre service IT afin d'installer le pack de langue Français (Parfois à l'installation du logiciel, même si le Français est selectionné, Keepass démarre en Anglais)
+
+  - Ou dois je sauvegarder ma base de données ? Il est conseillé de sauvegarder votre fichier .KBX dans un repertoire réseau sur le serveur SRVWIN01, par exmple dans  *E:\Base Keepass Utilisateurs\Autres utilisateurs* avec une copie en local sur votre ordinateur en cas d'indisponibilité du repertoire réseau.
   En cas de supression accidentelle de votre base, le service informatique sera capable de restaurer votre fichier à une version antérieure du fichier dans le repertoire réseau.
 
-  J'ai perdu mon mot de passe maître pour avoir accès à ma base Keepass .KDBX, que faire ? Il faut espérer que vous ayez pris soin d'imprimer et remplir la "feuille de secours" Keepass lors de la création du mot de passe maître.
+  - J'ai perdu mon mot de passe maître pour avoir accès à ma base Keepass .KDBX, que faire ? Il faut espérer que vous ayez pris soin d'imprimer et remplir la "feuille de secours" Keepass lors de la création du mot de passe maître.
+
+
+- Lorsque vous essayez d'exécuter KeePass 2.x à partir d'un lecteur/partage réseau, vous obtenez un message d'erreur comme celui-ci :
+"L'application a généré une exception qui n'a pas pu être gérée" ou
+"KeePass a rencontré un problème et doit fermer".
+
+  La cause : la stratégie de sécurité par défaut stricte du Framework .NET de Microsoft interdit l'exécution d'applications .NET à partir d'un lecteur/partage réseau.
+
+  La résolution recommandée : copier/installer KeePass 2.x sur un disque dur local et exécuter la copie.
+
+- Est-ce que l'interface graphique de l'utilisateur prend en charge les thèmes sombres ?
+    Oui. KeePass prend en charge tous les thèmes du système, incluant ceux qui sont sombres.
+
+    Sur Windows 11, un thème (sombre) peut être sélectionné dans les paramètres Windows → 'Accessibilité' → 'Thèmes de contraste'.
+    Sur Windows 10, un thème (sombre) peut être sélectionné dans les paramètres Windows → 'Personnalisation' → 'Thèmes' → 'Paramètres de contraste élevé'.
+
+    Apparence personnalisée.
+    Si vous souhaitez modifier l'apparence de KeePass indépendamment du thème du système actif, alors vous pourriez être intéressé par le greffon/Plugin "KeeTheme".
   
 
 
