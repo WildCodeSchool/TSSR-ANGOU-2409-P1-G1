@@ -249,14 +249,14 @@ Félicitations, KeePass est prêt à être utilisé !
    - Commencez par activer la fonctionnalité des Clichés instantanés sur le disque qui contient la base de données KeePass.
   
   
-     <img srv="" width="500" height="300">
+     <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/cep1.jpg?raw=true" width="300" height="300">
 
 ---
 
 2. **Les Clichés instantanés sont activés sur le disque E: qui contient la base KeePass** :
    - Assurez-vous que le disque contenant la base KeePass, dans cet exemple `E:`, a bien la fonctionnalité des Clichés instantanés activée.
 
-     <img srv="" width="500" height="300">
+     <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/cep2.jpg?raw=true" width="300" height="300">
 
 ---
 
@@ -264,14 +264,14 @@ Félicitations, KeePass est prêt à être utilisé !
    - Configurez la planification des Clichés instantanés pour qu'ils se déclenchent 3 fois par jour à des heures spécifiques (par exemple, à 8h, 12h et 18h).
        
 
-     <img srv="" width="500" height="300">
+     <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/cep3.jpg?raw=true" width="300" height="300">
 
   ---
 
   4. **Restaurer une version précédente d'un fichier** :
    - Pour restaurer une version précédente de la base de données KeePass, faites un clic droit sur le fichier concerné, puis sélectionnez **Restaurer les              versions précédentes**.
 
-     <img srv="" width="500" height="300">
+     <img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/ce4.jpg?raw=true" width="300" height="300">
 ---
 
 **Conseil** : Utilisez un **disque RAID** pour sécuriser davantage vos sauvegardes.
