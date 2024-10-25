@@ -13,6 +13,7 @@
 <summary><strong>1) Configuration des utilisateurs et des machines
 </strong></summary>
 
+
   <details>
   <summary>1.1 Renommer les machines client/serveur
   </summary>
@@ -34,8 +35,10 @@ Le processus est similaire pour le serveur. Dans notre cas, nous utilisons Windo
 
 
   </details>
+  
   <details>
-<summary>1.2 Création d'un utilisateur "Wilder" dans le groupe des administrateurs locaux</summary>
+  <summary>1.2 Création d'un utilisateur "Wilder" dans le groupe des administrateurs locaux
+  </summary>
 
 ##### 1.2.1 Sur le client (Windows 10 PRO)
 
@@ -80,6 +83,25 @@ Le processus est similaire sur le serveur :
    - Cliquez sur **Groupes**, puis faites un double-clic sur **Administrateurs**.
    - Ajoutez l'utilisateur "Wilder" au groupe.
   </details>
+
+  <details>
+  <summary>1.3 Mise en place du dossier partagé sur le serveur
+  </summary>
+
+1. Faites un clic droit sur le dossier contenant la base de données de KeePass.
+2. Allez dans `Propriétés > Partager > icône Partager`, puis sélectionnez les utilisateurs avec lesquels vous souhaitez partager le dossier et gérez leurs droits
+d'accès. Enfin, cliquez sur `Partager`.
+
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-25%20120038.png?raw=true" width="250" height="250">
+
+---------------------------------------------------------------------------------------------
+
+<img src="https://github.com/WildCodeSchool/TSSR-ANGOU-2409-P1-G1/blob/Images/Capture%20d'%C3%A9cran%202024-10-25%20120059.png?raw=true" width="250" height="250">
+
+   **ATTENTION :** Les options de droits d'accès sur Windows sont puissantes. Par exemple, **Modifier** permet aux utilisateurs d'écrire et de supprimer des fichiers. Pour une gestion des droits plus fine et pour éviter les erreurs, il est recommandé d'utiliser l'Active Directory.
+   
+  </details>
+  
 </details> 
 <details>
 <summary><strong>2) Configuration des adresses IP pour un réseau local (Windows 10 Pro et Windows Server)
@@ -281,12 +303,38 @@ Félicitations, KeePass est prêt à être utilisé !
 <summary><strong>FAQ
 </strong></summary>
 
-#### Comment puis-je récupérer mon mot de passe principal si je l'oublie ?
+<details>
+<summary><strong>Comment puis-je récupérer mon mot de passe principal si je l'oublie ?
+</strong></summary>  
 Malheureusement, il n'est pas possible de récupérer un mot de passe principal oublié dans KeePass. Assurez-vous de bien le mémoriser ou de le noter en lieu sûr.
+</details>
 
-#### KeePass propose-t-il la synchronisation automatique entre plusieurs appareils ?
+<details>
+<summary><strong>KeePass propose-t-il la synchronisation automatique entre plusieurs appareils ?
+</strong></summary>
 Non, KeePass ne dispose pas de cette fonctionnalité intégrée. Cependant, vous pouvez utiliser des services de cloud comme Google Drive ou Dropbox pour synchroniser manuellement votre fichier de base de données.
+</details>
 
-#### Puis-je utiliser KeePass sur mon téléphone ?
+<details>
+<summary><strong> Puis-je utiliser KeePass sur mon téléphone ?
+</strong></summary>
 Oui, KeePass dispose de versions mobiles, comme KeePassDroid pour Android ou Strongbox pour iOS, qui vous permettent d'accéder à votre base de données sur votre téléphone.
+</details>
+
+<details>
+<summary><strong>Comment configurer KeePass pour une utilisation en réseau ?
+</strong></summary>  
+Placez la base de données sur un serveur sécurisé, avec un accès contrôlé par un partage réseau restreint.
+Activez la fonctionnalité de synchronisation pour que plusieurs utilisateurs puissent travailler en parallèle sans conflit.
+Utilisez un VPN pour les connexions distantes afin de protéger l'accès réseau à KeePass.
+</details>
+
+<details>
+<summary><strong>Comment gérer les mises à jour de KeePass et des plug-ins ?
+</strong></summary>
+Téléchargez les mises à jour depuis le site officiel de KeePass pour éviter les versions altérées.
+Testez les mises à jour sur un environnement de test avant de les déployer en production.
+Maintenez les plug-ins à jour pour éviter les vulnérabilités de sécurité et pour garantir la compatibilité.
+</details>
+
 </details>
