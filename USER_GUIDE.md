@@ -179,7 +179,7 @@ Les points abordés ci-dessus permettent d'utiliser Keepass pour une utilisation
 
    - Durcir la sécurité pour accéder à la base Keepass avec un fichier clef (double authentification 2FA)
    - Création de groupes
-   - l'ajout de Plugins
+   - L'ajout de Plugins
    - De nombreux raccourcis clavier
    - Une utilisation de la base de données depuis plusieurs appareils (Avec sauvegarde de la base dans le cloud, mais attention ceci est parfois interdit par certaines entreprises ou organisations)
 
@@ -194,7 +194,7 @@ Les points abordés ci-dessus permettent d'utiliser Keepass pour une utilisation
   Ou dois je sauvegarder ma base de données ? Il est conseillé de sauvegarder votre fichier .KBX dans un repertoire réseau sur le serveur SRVWIN01, par exmple dans  *E:\Base Keepass Utilisateurs\Autres utilisateurs* avec une copie en local sur votre ordinateur en cas d'indisponibilité du repertoire réseau.
   En cas de supression accidentelle de votre base, le service informatique sera capable de restaurer votre fichier à une version antérieure du fichier dans le repertoire réseau.
 
-  J'ai perdu mon mot de passe maître pour avoir accès à ma base Keepass .KDBX, que faire ? Il faut espérer que vous ayez pris soin d'imprimer et rempli la "feuille de secours" Keepass lors de la création du mot de passe maître.
+  J'ai perdu mon mot de passe maître pour avoir accès à ma base Keepass .KDBX, que faire ? Il faut espérer que vous ayez pris soin d'imprimer et remplir la "feuille de secours" Keepass lors de la création du mot de passe maître.
   
 
 
